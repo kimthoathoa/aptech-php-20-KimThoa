@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+            .top {
+                    position: fixed;
+                    width: 30px;
+                    height: 30px; 
+            }
+        </style>
+  </head>
+  <body>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Carousel</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+              
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <div class="bd-example">
+                <div id="carouselExampleCaptions" class="carousel slide " data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" style="background-image: url(https://cungphuot.info/wp-content/uploads/2013/09/xe-khach-di-son-la.jpg); height: 500px;background-position: 40% 20%;">
+                       <div class="carousel-caption d-none d-md-block text-left">
+                            <h1 id="top">Example headline.</h1>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <button type="button" class="btn btn-primary">Sign up today</button>
+                      </div>
+                   
+                    </div>
+                    <div class="carousel-item" style="background-image: url(http://admin.phununews.vn/js/tiny_mce/plugins/imagemanager/files/kinh-nghiem-chup-hinh-song-ao-khi-doc-hanh-6.jpg); height: 500px; background-repeat: no-repeat; background-size: 100%;">
+                        <div class="carousel-caption d-none d-md-block text-center">
+                                <h1>Another example headline.</h1>
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                <button type="button" class="btn btn-primary">Learn more</button>
+                            </div>
+                        
+                    </div>
+                    <div class="carousel-item" style="background-image: url(http://4.bp.blogspot.com/-5wousj9yusI/VuB0ufIE6OI/AAAAAAAALJw/2lrwgN373M8/s1600/20151101-bo-anh-cuoi-dam-chat-giang-ho-tren-cao-nguyen-moc-chau-1.jpg); height: 500px;background-repeat: no-repeat; background-size: 100%;">
+                      <div class="carousel-caption d-none d-md-block text-right">
+                                <h1>One more for good measure.</h1>
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                <button type="button" class="btn btn-primary">Browse gallery</button>
+                            </div>
+                        
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+            
+        <div class="container mt-5">
+            <div class="row mb-5">
+                    <div class="card-deck text-center">
+                        <div class="card">
+                            <div class="card-body">
+                                <button type="button" class="btn btn-secondary rounded-circle" style="height: 100px;width: 100px;"></button>
+                                <h2 class="card-title mt-1">Heading</h2>
+                                <p class="card-text">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                                <button type="button" class="btn btn-secondary " >View details »</button>
+                              </div>
+                            </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <button type="button" class="btn btn-secondary rounded-circle" style="height: 100px;width: 100px;"></button>
+                                <h2 class="card-title mt-1">Heading</h2>
+                                <p class="card-text">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                                <button type="button" class="btn btn-secondary " >View details »</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <button type="button" class="btn btn-secondary rounded-circle" style="height: 100px;width: 100px;"></button>
+                                <h2 class="card-title mt-1">Heading</h2>
+                                <p class="card-text">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                                <button type="button" class="btn btn-secondary " >View details »</button>
+                            </div>
+                        </div>
+                </div>
+            </div><hr>
+            <div class="row mt-5 mb-5" >
+                <div class="col-md-8">
+                    <h1>First featurette heading. <span class="text-muted"> It’ll blow your mind.</span></h1>
+                    <p class="text-muted">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                </div>
+                
+                <div class="col-md-4 ">
+                        <img src="https://media.metrip.vn/images/hanhle194_5_11_2017_18_44_27_300.jpg" alt="photo" width="100%">
+                </div>
+            </div> <hr>
+            <div class="row mt-5 mb-5">
+                <div class="col-md-4 ">
+                   <img src="https://anhvienmimosa.com/wp-content/uploads/2019/04/chup-anh-cuoi-moc-chau-dep-5.jpg" alt="photo" width="100%">
+                </div>
+                <div class="col-md-8 p-5">
+                    <h1>Oh yeah, it’s that good. <span class="text-muted"> See for yourself.</span></h1>
+                    <p class="text-muted">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                </div>
+           </div><hr>
+            <div class="row mt-5 mb-5">
+                <div class="col-md-8">
+                    <h1>And lastly, this one.  <span class="text-muted">Checkmate.</span></h1>
+                    <p class="text-muted">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                </div>
+            <div class="col-md-4 ">
+                <img src="http://cdn.kul.vn/data/article/2016/08/09/nhung-cung-duong-hinh-chu-s-1_1470738943.jpg" alt="photo" width="100%">
+            </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+            <div class="col-8"><p class="text-muted">© 2017-2019 Company, Inc.  · <a href="#">Privacy </a>· <a href="#">Terms</a></p></div>
+            <div class="col-4 text-right"><p><a href="#top">Back to top</a></p></div>
+        </div>
+        </div>
+  </body>
+</html>

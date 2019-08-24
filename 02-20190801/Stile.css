@@ -1,0 +1,23 @@
+body{
+	background: #dcdcdc;
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+	font-size: 0.9em;
+	line-height: 1.5em;
+}
+#main{
+	width:  1000px;
+	margin: 0 auto;
+}
+#head{
+	display: grid;
+    margin-top:20px;
+	height: 70px;
+	background: rgba(238, 184, 34, 0.726);
+}
+#maincontent{
+	float: right;
+	width: 100%
+}
+
